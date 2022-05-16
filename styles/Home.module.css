@@ -1,18 +1,44 @@
 .container {
-  background-image: url("/bg-about.gif");
+  background-image: url('/bg-about.gif');
   background-position: center;
   background-size: 200%;
   background-attachment: fixed;
 }
 
 .main {
+  background: #000000;
+  opacity: 1;
   min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  animation: change-opacity 2s ease-in-out 3s 1 normal forwards;
+}
+
+@keyframes change-opacity {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+#logo {
+  padding-top: 30vh;
+  animation: move-logo 0.3s ease-in-out 2.7s 1 normal forwards;
+}
+
+@keyframes move-logo {
+  0% {
+    padding-top: 30vh;
+  }
+  100% {
+    padding-top: 0;
+  }
 }
 
 .footer {
