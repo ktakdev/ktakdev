@@ -6,8 +6,6 @@
 }
 
 .main {
-  background: #000000;
-  opacity: 1;
   min-height: 100vh;
   padding: 0;
   flex: 1;
@@ -15,16 +13,6 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  animation: change-opacity 2s ease-in-out 3s 1 normal forwards;
-}
-
-@keyframes change-opacity {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0.5;
-  }
 }
 
 #logo {
@@ -38,6 +26,29 @@
   }
   100% {
     padding-top: 0;
+  }
+}
+
+#logo {
+  padding-top: 30vh;
+  animation: move-logo 0.3s ease-in-out 2.7s 1 normal forwards;
+}
+
+.overlay {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000000;
+  opacity: 1;
+  animation: change-opacity 2s ease-in-out 3s 1 normal forwards;
+}
+
+@keyframes change-opacity {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
   }
 }
 

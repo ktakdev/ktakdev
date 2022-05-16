@@ -30,6 +30,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
+        <div className={styles.overlay}></div>
         <div id={styles.logo} style={{ width: '400px' }}></div>
       </main>
 
