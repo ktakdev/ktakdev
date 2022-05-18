@@ -34,13 +34,46 @@
   animation: move-logo 0.3s ease-in-out 2.7s 1 normal forwards;
 }
 
+.about {
+  font-family: video cond;
+  max-width: 600px;
+  z-index: 1;
+  padding: 0 2em;
+  opacity: 0;
+  animation: show-content 2s ease-in-out 3.5s 1 normal forwards;
+}
+
+.about h2 {
+  font-size: 4em;
+  line-height: 1;
+  margin: 0;
+  color: #00ff6a;
+  letter-spacing: 0.05em;
+  overflow: hidden;
+}
+
+.about div {
+  font-size: 2em;
+  color: #ffffff;
+  padding: 0.5em 0;
+}
+
+@keyframes show-content {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .overlay {
   position: absolute;
   width: 100vw;
   height: 100vh;
   background-color: #000000;
   opacity: 1;
-  animation: change-opacity 2s ease-in-out 3s 1 normal forwards;
+  animation: change-opacity 2s ease-in-out 5s 1 normal forwards;
 }
 
 @keyframes change-opacity {
