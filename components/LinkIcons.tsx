@@ -3,6 +3,11 @@ import styles from '@styles/LinkIcons.module.css'
 
 const links = [
   {
+    name: 'Email',
+    iconUrl: '/logo_email.svg',
+    url: 'mailto: ktakdev@gmail.com',
+  },
+  {
     name: 'Github',
     iconUrl: '/logo_github.svg',
     url: 'https://github.com/ktakdev',
