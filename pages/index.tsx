@@ -5,6 +5,7 @@ import styles from '../styles/Home.module.css'
 import lottie from 'lottie-web'
 import reactLogo from '../logo.json'
 import { useEffect, useRef } from 'react'
+import LinkIcons from '../components/LinkIcons'
 
 const Home: NextPage = () => {
   // react 18 work around.
@@ -39,6 +40,7 @@ const Home: NextPage = () => {
             I&apos;m a software engineer, started my career in 2015. I have
             serious passion for UI/UX, front-end technology, and so on.
           </div>
+          <LinkIcons></LinkIcons>
         </div>
       </main>
     </div>
