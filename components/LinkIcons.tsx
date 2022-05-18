@@ -24,7 +24,7 @@ const links = [
   },
 ]
 
-export default function LinkIcons({ size = '50px' }) {
+export default function LinkIcons({ size = '40px' }) {
   return (
     <div className={styles.linkIcons}>
       {links.map((link) => (
