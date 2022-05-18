@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "checkcss": "stylelint styles"
+    "checkcss": "stylelint styles",
+    "analyze": "ANALYZE=true next build"
   },
   "dependencies": {
     "lottie-web": "^5.9.4",
@@ -16,6 +17,7 @@
     "react-dom": "18.1.0"
   },
   "devDependencies": {
+    "@next/bundle-analyzer": "^12.1.6",
     "@trivago/prettier-plugin-sort-imports": "^3.2.0",
     "@types/node": "17.0.33",
     "@types/react": "18.0.9",
