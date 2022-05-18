@@ -5,7 +5,7 @@ const links = [
   {
     name: 'Github',
     iconUrl: '/logo_github.svg',
-    url: 'https://github.com/ktakdev/ktakdev',
+    url: 'https://github.com/ktakdev',
   },
   {
     name: 'Youtube',
