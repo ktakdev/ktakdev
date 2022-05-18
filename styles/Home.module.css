@@ -1,18 +1,18 @@
 .container {
   background-image: url('/bg-about.gif');
+  background-attachment: fixed;
   background-position: center;
   background-size: 250%;
-  background-attachment: fixed;
 }
 
 .main {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
   min-height: 100vh;
   padding: 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
 }
 
 #logo {
@@ -27,10 +27,10 @@
 }
 
 .about {
-  font-family: video;
-  max-width: 600px;
   z-index: 1;
+  max-width: 600px;
   padding: 0 2em;
+  font-family: video, sans-serif;
   opacity: 0;
   animation: show-content 2s ease-in-out 3.5s 1 normal forwards;
 }
@@ -42,25 +42,25 @@
 }
 
 .about h2 {
+  margin: 0;
+  overflow: hidden;
   font-size: 4em;
   line-height: 1;
-  margin: 0;
   color: #00ff6a;
   letter-spacing: 0.05em;
-  overflow: hidden;
 }
 
 .about div {
-  font-size: 2em;
-  color: #ffffff;
   padding: 0.5em 0;
+  font-size: 2em;
+  color: #fff;
 }
 
 .overlay {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  background-color: #000000;
+  background-color: #000;
   opacity: 1;
   animation: change-opacity 5s ease-in-out 4s 1 normal forwards;
 }
