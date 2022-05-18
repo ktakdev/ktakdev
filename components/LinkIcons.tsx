@@ -17,6 +17,11 @@ const links = [
     iconUrl: '/logo_twitter.svg',
     url: 'https://twitter.com/KTak_dev',
   },
+  {
+    name: 'Adobe Portfolio',
+    iconUrl: '/logo_adobe_portfolio.svg',
+    url: 'https://ktakdev.myportfolio.com/',
+  },
 ]
 
 export default function LinkIcons({ size = '50px' }) {
