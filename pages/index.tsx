@@ -1,11 +1,11 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import styles from '@styles/Home.module.css'
 import lottie from 'lottie-web'
 import reactLogo from '../logo.json'
 import { useEffect, useRef } from 'react'
-import LinkIcons from '../components/LinkIcons'
+import LinkIcons from '@components/LinkIcons'
 
 const Home: NextPage = () => {
   // react 18 work around.
