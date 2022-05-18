@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import styles from '@styles/Home.module.css'
 import lottie from 'lottie-web'
-import reactLogo from '../logo.json'
+import reactLogo from '@animations/logo.json'
 import { useEffect, useRef } from 'react'
 import LinkIcons from '@components/LinkIcons'
 
