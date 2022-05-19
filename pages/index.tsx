@@ -3,6 +3,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import { useEffect, useRef } from 'react'
 import LinkIcons from '@components/LinkIcons'
+import Menu from '@components/Menu'
 import styles from '@styles/Home.module.css'
 import reactLogo from '@animations/logo.json'
 
@@ -32,6 +33,7 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <div className={styles.overlay}></div>
+        <Menu></Menu>
         <div
           id={styles.logo}
           style={{ width: '100%', maxWidth: '400px' }}
